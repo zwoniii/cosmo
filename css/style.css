@@ -276,12 +276,30 @@ button {
     text-align: center;
 }
 
-.how-to__box circle {
+.how-to__box circle,
+.how-to__box text,
+.how-to__box foreignObject {
     cursor: pointer;
     transition: all .5s;
+    font-size: 18px;
+    line-height: 21px;
 }
 
-.how-to__box circle:hover {
+.how-to__box g:hover circle {
     r: 20px;
     fill: #036CCA;
+}
+
+.how-to__box g:hover text {
+    fill: #036CCA;
+    font-size: 36px;
+}
+
+.how-to__box g:hover foreignObject {
+    font-size: 22px;
+    color: #036CCA;
+}
+
+foreignObject {
+    text-align: left;
 }
