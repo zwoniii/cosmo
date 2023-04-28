@@ -900,6 +900,32 @@ foreignObject {
     }
 }
 
+@media (max-width: 570px) {
+    .footer__inner {
+        display: block;
+    }
+    .footer__text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .footer__text p + p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .footer__menu {
+        margin-bottom: 50px;
+    }
+    .footer__menu,
+    .footer__links {
+        margin-right: 0;
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+}
+
 @media (max-width: 480px) {
     .title {
         font-size: 28px;
@@ -915,6 +941,7 @@ foreignObject {
     }
     .special-offer__item-box {
         padding: 20px 10px;
+        min-height: 330px;
     }
     .services__title,
     .to-book__title {
