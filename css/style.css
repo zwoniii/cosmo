@@ -681,6 +681,18 @@ foreignObject {
     }
 }
 
+@media (max-width: 1050px) {
+    .special-offer__inner {
+        display: block;
+    }
+    .special-offer__item {
+        width: 100%;
+    }
+    .special-offer__btn {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 1024px) {
     .login {
         margin-right: 0;
@@ -766,9 +778,41 @@ foreignObject {
         border-radius: 50%;
         background-color: #fff;
     }
+    .services__inner {
+        display: block;
+    }
+    .services__box-list {
+        width: 100%;
+        margin-bottom: 170px;
+        margin-right: 0;
+    }
+    .services__buttons {
+        max-width: 500px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .slick-slide img {
+        max-width: 100%;
+    }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
+    .services {
+        padding-bottom: 50px;
+    }
+    .slider__inner {
+        padding: 0;
+    }
+    .slider__description {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .info {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 640px) {
     .header__title {
         font-size: 34px;
         line-height: 30px;
@@ -843,12 +887,30 @@ foreignObject {
         font-size: 28px;
         line-height: 28px;
     }
+    .special-offer__newprice {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .services__box-list {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .special-offer__item-box {
+        padding: 20px 10px;
+    }
+    .services__title,
+    .to-book__title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 388px) {
+    .service__btn--first::before {
+        bottom: 63px;
+    }
 }
 
 @media (max-width: 360px) {
-    .title {
-        font-size: 24px;
-    }
     .header__top {
         flex-wrap: wrap;
     }
