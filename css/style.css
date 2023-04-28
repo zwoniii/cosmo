@@ -691,6 +691,15 @@ foreignObject {
     .special-offer__btn {
         margin-bottom: 40px;
     }
+    .contacts__inner {
+        display: block;
+    }
+    .contacts__box {
+        width: 100%;
+    }
+    .contacts__guarantees {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -879,6 +888,15 @@ foreignObject {
     }
     .to-book {
         background-position: top left;
+    }
+    .contacts__guarantees-img {
+        max-width: 100%;
+    }
+    .contacts__guarantees {
+        width: 100%;
+    }
+    .services__title {
+        font-size: 35px;
     }
 }
 
