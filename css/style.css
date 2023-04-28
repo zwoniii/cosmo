@@ -685,6 +685,16 @@ foreignObject {
     .login {
         margin-right: 0;
     }
+    .to-book__inner {
+        display: block;
+    }
+    .to-book__text {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 895px) {
@@ -823,6 +833,9 @@ foreignObject {
     .about__table-td span {
         display: inline-block;
     }
+    .to-book {
+        background-position: top left;
+    }
 }
 
 @media (max-width: 480px) {
@@ -833,6 +846,9 @@ foreignObject {
 }
 
 @media (max-width: 360px) {
+    .title {
+        font-size: 24px;
+    }
     .header__top {
         flex-wrap: wrap;
     }
