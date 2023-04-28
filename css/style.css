@@ -651,6 +651,10 @@ foreignObject {
     width: 165px;
 }
 
+.how-to__box-list {
+    display: none;
+}
+
 @media (max-width: 1160px) {
     .about {
         text-align: center;
@@ -724,6 +728,34 @@ foreignObject {
     .header__description {
         justify-content: center;
     }
+    .how-to__box svg {
+        display: none;
+    }
+    .how-to__box-list {
+        display: block;
+        list-style: none;
+    }
+    .how-to__box-item {
+        padding-bottom: 30px;
+        text-align: left;
+        padding-left: 20px;
+        margin-left: 20px;
+        position: relative;
+        border-left: 1px solid #fff;;
+    }
+    .how-to__box-item:last-child {
+        border-left: none;
+    }
+    .how-to__box-item::before {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
 }
 
 @media (max-width: 620px) {
@@ -790,6 +822,13 @@ foreignObject {
     }
     .about__table-td span {
         display: inline-block;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+        line-height: 28px;
     }
 }
 
